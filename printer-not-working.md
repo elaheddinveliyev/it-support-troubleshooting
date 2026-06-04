@@ -1,27 +1,34 @@
 # Printer Not Working Issue
 
 ## Problem
-Printer does not print documents.
+User is unable to print documents.
 
 ## Environment
 - Windows 10/11 workstation
 - Shared office printer setup
 
+## Possible Causes
+- Printer not set as default
+- Print spooler service issue
+- Driver problem
+- Connection issue
+
 ## Troubleshooting Steps
 
 ### 1. Check connection
-- USB / Network connection
+- Verify USB or network connection
 
-### 2. Check printer status
-- Set as default printer
+### 2. Set default printer
+Settings → Devices → Printers → Set as default
 
 ### 3. Restart Print Spooler
 Run:
 services.msc → Print Spooler → Restart
 
 ### 4. Clear print queue
+Cancel all pending documents
 
-### 5. Reinstall driver
+### 5. Reinstall driver if needed
 
 ## Result
-Printer started working after spooler restart
+Printer resumed normal operation after spooler restart.

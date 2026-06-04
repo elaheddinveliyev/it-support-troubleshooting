@@ -3,33 +3,36 @@
 ## Problem
 User has no internet access on Windows PC.
 
+## Environment
+- Windows 10/11 Enterprise
+- Corporate network (simulated workstation)
+
 ## Possible Causes
-- Wrong IP configuration
-- DNS issue
-- Router problem
+- Incorrect IP configuration
+- DNS issues
 - Network adapter disabled
+- Router or gateway issue
 
 ## Troubleshooting Steps
 
 ### 1. Check physical connection
-- Ethernet cable plugged in
-- Wi-Fi turned on
+- Ensure Ethernet cable is connected or Wi-Fi is enabled
 
-### 2. Check IP address
-Run command:
-ipconfig
+### 2. Check IP configuration
+Run:
+ipconfig /all
 
-If IP starts with 169.254 → DHCP issue
+If IP starts with 169.254 → DHCP issue detected
 
-### 3. Renew IP
-ipconfig /release
+### 3. Renew IP address
+ipconfig /release  
 ipconfig /renew
 
-### 4. Flush DNS
+### 4. Flush DNS cache
 ipconfig /flushdns
 
-### 5. Test connection
+### 5. Test connectivity
 ping google.com
 
 ## Result
-Issue resolved after IP renewal
+Issue resolved after IP renewal and network reset.

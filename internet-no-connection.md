@@ -4,8 +4,7 @@
 User has no internet access on Windows PC.
 
 ## Environment
-- Windows 10/11 Enterprise
-- Corporate network (simulated workstation)
+- Windows 10/11 workstation (simulated corporate environment)
 
 ## Possible Causes
 - Incorrect IP configuration

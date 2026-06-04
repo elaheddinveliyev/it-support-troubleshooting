@@ -3,6 +3,10 @@
 ## Problem
 Printer does not print documents.
 
+## Environment
+- Windows 10/11 workstation
+- Shared office printer setup
+
 ## Troubleshooting Steps
 
 ### 1. Check connection

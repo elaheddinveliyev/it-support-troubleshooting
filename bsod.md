@@ -1,24 +1,34 @@
-# Blue Screen Error (BSOD)
+# Blue Screen of Death (BSOD)
 
 ## Problem
-System crashes with blue screen.
+System crashes with a blue screen error.
+
+## Environment
+- Windows 10/11 workstation
+- Standard enterprise user workstation
 
 ## Possible Causes
-- Driver issues
-- Hardware failure
-- RAM problems
+- Faulty drivers
+- Hardware issues (RAM, disk)
+- System file corruption
+- Recent updates or changes
 
-## Troubleshooting
+## Troubleshooting Steps
 
-### 1. Check error code
-- Note STOP code
+### 1. Identify error code
+Check STOP code on BSOD screen
 
 ### 2. Update drivers
+Device Manager → Update all drivers
 
-### 3. Run memory test
-Windows Memory Diagnostic tool
+### 3. Run system file check
+sfc /scannow
 
-### 4. Check recent changes
+### 4. Check RAM
+Windows Memory Diagnostic Tool
+
+### 5. Review recent changes
+Uninstall recent updates if needed
 
 ## Result
-Issue related to outdated driver
+Issue traced to outdated driver and resolved after update.

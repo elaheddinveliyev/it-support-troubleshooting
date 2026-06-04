@@ -66,5 +66,5 @@ Seeking opportunities in:
 ## 📬 Contact
 
 - Email: elaheddinveliyev2@gmail.com  
-- LinkedIn: linkedin.com/in/%C9%99lah%C9%99ddin-v%C9%99liyev-501a5039b/  
-- GitHub: github.com/elaheddinveliyev
+- LinkedIn: https://linkedin.com/in/%C9%99lah%C9%99ddin-v%C9%99liyev-501a5039b/  
+- GitHub: https://github.com/elaheddinveliyev
